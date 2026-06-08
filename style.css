@@ -266,3 +266,28 @@ ul li{
     border-radius: 100%;
     cursor: pointer;
 }
+.harm{
+    display: none;
+}
+@media(max-width: 720px){
+    .navlinks{
+        display: none;
+    }
+    .harm{
+        display: flex;
+    }
+}
+@media(max-width: 450px){
+    .navlinks{
+        display: none;
+    }
+    .harm{
+        display: flex;
+    }
+    .navparent{
+        background-color: green;      
+    }
+    .navhead{
+       font-size: 1rem; 
+    }
+}
